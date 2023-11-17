@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios! 
 
-<a href="https://p4uloc4rvalho.github.io/html-css/exercicios/des010/android.html">Executar o des010</a>
+<a href="https://p4uloc4rvalho.github.io/html-css/exercicios/des010/android.html">Executar o desafio 010</a>
