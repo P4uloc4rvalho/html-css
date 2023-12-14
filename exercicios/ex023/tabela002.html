@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         tbody > tr:nth-child(odd){
@@ -33,13 +34,19 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top:0;
+            background-color: white;
+        }
+
         td.num {
             text-align: right;
         }
 
         caption {
-            font-size: 30px;
-            font-weight: bolder;
+            font-size: 1.5em;
+            font-weight: bold;
             background-color: darkgray;
             padding: 10px;
         }
@@ -50,8 +57,8 @@
     <table>
         <thead>
             <caption>Legenda da Tabela</caption>
-            <th>Estado</th>
-            <th style="width: 50px;">População</th>
+                <th>Estado</th>
+                <th style="width: 50px;">População</th>
         </thead>
         <tbody>
             <tr>
