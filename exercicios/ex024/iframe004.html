@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança no iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            border: 1px solid black;
+            display: grid;
+            place-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Sandbox no iframe</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam eum accusantium quia nemo iste ex. Tenetur laboriosam velit quos beatae. Facere voluptas cumque at harum blanditiis eveniet quisquam suscipit.</p>
+    <div><iframe src="pag002.html" frameborder="0" sandbox="sandbox" referrerpolicy="no-referer"></iframe></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias in ratione dignissimos, ullam similique et ducimus ex, provident sit quidem temporibus mollitia? Perspiciatis nesciunt ratione dolores sint dolorum deleniti quaerat!</p>
+</body>
+</html>
